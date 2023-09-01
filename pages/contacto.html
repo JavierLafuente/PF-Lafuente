@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <!-- Css main -->
+     <link rel="stylesheet" href="../css/styles.css">
+        
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary .justify-content-center .align-items-center">
+            <img src="../img/logoEForiginal.png" class="logo-original" alt="logoOriginal">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="#">Inicio</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./actividadesServicios.html">Actividades y Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./quienesSomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./preguntasFrecuentes.html">Preguntas frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li> 
+                </ul>
+              </div>
+            </div>
+          </nav>  
+              
+    </header>  
+    <main>
+
+
+    <div>
+        <img class="imagen-servicios" src="../img/contacto.webp" alt="">
+    </div>
+
+    <div class="articulo_main">
+        <section>
+            <article>
+                <h2>¡Preguntanos lo que quieras!</h2>
+                <p>Te responderemos en breve</p>
+            </article>
+        </section> 
+    <form action="procesar-consulta.php" method="POST" class="formulario-consulta">
+        <label for="nombre y apellido">Nombre y Apellido:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+              
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="Texto">Texto:</label>
+        <textarea id="texto" name="texto" placeholder="Escribe aquí tu consulta..." rows="4" required></textarea><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+
+</html>
+
+    </main>
+    <footer>
+        <div class="contenido-footer">
+                <img src="../img/logoEFblanco.png" class="logoblanco" width="30px">
+                <img src="../img/logoInstagram.png" width="30px" alt="">
+                <img src="../img/logoFacebook.webp" width="30px">
+                <img src="../img/logoWap.png" width="30px">
+                        
+        </div>
+        
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
