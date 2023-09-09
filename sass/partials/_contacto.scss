@@ -1,0 +1,43 @@
+.formulario-consulta{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-bottom: 400px;
+    margin-top: 10px;
+}
+        label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+        button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    @include borde-redondeado
+   
+}
+                &hover{
+    background-color: #0056b3;
+}
+
+.container p{
+    font-size: 2rem;
+    font-family: 'roboto';
+    color: blue;
+}
+
+@mixin borde-redondeado($radio) {
+    border-radius: $radio;
+  }

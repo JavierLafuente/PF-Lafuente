@@ -1,0 +1,50 @@
+header{
+    height: 100px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+
+
+    .logo-original {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 120px;
+    width: 120px;
+}
+    nav{
+    height: 100%;
+    text-decoration: none;
+    font-size: 17px;
+
+
+
+
+        .navbar-collapse a {
+background-color: white;
+color: solid;
+}
+
+
+        ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+             li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 100px;
+        margin-top: 25px;
+    
+
+                 a{
+    color: blue;
+    text-decoration: none;
+    font-size: 2rem;
+}
+}
+}
+}
+}
