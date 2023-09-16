@@ -3,6 +3,12 @@ main{
     padding: 20px;
 
 }
+.imagen-servicios{
+    position: inherit;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
 
     .contenedor-imagen{
         position: relative;
@@ -26,17 +32,18 @@ margin-top: 50px;
 margin-bottom: 30px;
 width: 100%;
 }
-article h2{
+     h2{
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-article p {
+     p {
     font-size: 16px;
     line-height: 1.5;
-    padding: 40px;
-    margin-left: 70px;
-    margin-right: 70px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
 }
 
 
